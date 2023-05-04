@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4133edc8cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <form action="#">
+        <h2>Registration Form</h2>
+       <div class="inputContainer">
+            <i class="fa-solid fa-user"></i>
+            <input class="inputField" type="text"  placeholder="First Name...." name="fname">
+        </div>
+
+        <div class="inputContainer">
+            <i class="fa-solid fa-user"></i>
+            <input class="inputField" type="text"  placeholder="Last Name...." name="lname">
+        </div>
+        <div class="inputContainer">
+            <i class="fa-solid fa-envelope"></i>
+            <input class="inputField" type="email"  placeholder="E-mail...." name="fname">
+        </div>
+        <div class="inputContainer">
+            <i class="fa fa-key icon"></i>
+            <input class="inputField" type="password" placeholder="Password" name="psw">
+          </div>
+          <div class="input-container">
+            <i class="fa-sharp fa-solid fa-venus-double"></i>
+            <input class="input-field" type="radio" name="gender" value="male">
+            <label for="male"> Male</label>
+            <input class="input-field" type="radio" name="gender" value="fmale">
+            <label for="fmale">Female</label>
+            <input class="input-field" type="radio" name="nonB" value="nonB">
+            <label for="nonB">Non-binary</label>
+          </div>
+          <br>
+          <div class="input-container">
+            <i class="fa-solid fa-globe"></i>
+            <label for="countries"    style="width: fit-content;">Choose a  Country:</label>
+            <div class="custom-select">
+    <select id="Country" name="Country">
+    <option value="Nigeria">Nigeria</option>
+    <option value="Kenya">Kenya</option>
+    <option value="Angola">Angola</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Ghana">South Africa</option>
+  </select>
+  </div>
+             </div>
+          <br>
+          <div class="input-container">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <input class="input-field" type="checkbox" name="terms" value="terms">
+            <label for="terms"> I agree with  the terns and conditions</label><br>
+            <br>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <input class="input-field" type="checkbox" name="newsletter" value="newsletter">
+            <label for="newsletter">Keep me updated with Notifications</label>
+          </div>
+          <br>
+          <button type="submit" class="btn">Register</button>
+          
+    </form>
+    </div>
+</body>
+</html>
